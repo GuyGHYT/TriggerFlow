@@ -148,3 +148,6 @@ This project is licensed under the MIT License — see the `LICENSE` file for de
 SPDX-License-Identifier: MIT
 
 Copyright (c) 2025 GuyGHYT
+
+## Other
+If you want anything added to the default plugins, put the plugin you want in the `Issues` tab and i will get to it as soon as possible!
