@@ -29,7 +29,6 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-<<<<<<< HEAD
 4. (Optional) Set up Spotify integration:
 
    **Create your own Spotify app (recommended):**
@@ -53,14 +52,6 @@ python -m pip install -r requirements.txt
    cp .env.example .env
    # Edit .env with your credentials from step f
    ```
-=======
-4. (Optional) Set Spotify credentials for the Spotify plugin:
-```powershell
-$env:SPOTIPY_CLIENT_ID="46d3dd30d76540799c23419c05ad492a"
-$env:SPOTIPY_CLIENT_SECRET="a4bfdba9f34f4f36a8a5e6cc3366be29"
-$env:SPOTIPY_REDIRECT_URI="http://localhost:8888/callback"
-```
->>>>>>> 0c3da60fbbc3a629b33867b506ec71149993a861
 
 5. Run the app or quick test:
 ```powershell
