@@ -1,0 +1,13 @@
+# Core runtime dependencies
+spotipy>=2.23,<3
+PyYAML>=6.0,<7
+PyAutoGUI>=0.9.54,<1
+Pillow>=10,<12
+psutil>=5.9,<6.1
+keyboard>=0.13.5,<0.14
+
+# Notes:
+# - Tkinter is part of the standard Python distribution on Windows; no pip package needed.
+# - Spotipy will pull in requests and other transitive deps automatically.
+# - Voicemeeter integration uses ctypes and the installed VoicemeeterRemote64.dll; no pip package required.
+# - For packaging (optional): install pyinstaller separately if desired.

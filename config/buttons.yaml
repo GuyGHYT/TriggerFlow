@@ -1,0 +1,42 @@
+b1:
+  text: Toggle Mute
+  action:
+    type: mute_mic
+b2:
+  text: Toggle Deafen
+  action:
+    type: deafen_headset
+b3:
+  text: Play Top Hits
+  action:
+    type: spotify_play_playlist
+    playlist_uri: spotify:playlist:3AV0RTLf20j24hsMUpljn5
+
+b4:
+  text: Toggle Input1 + VAIO1 (A1/A2)
+  action:
+    type: voicemeeter_toggle_a_pair
+    # Adjust indices for your Voicemeeter layout:
+    # strip 0 = first hardware input, strip 5 = first virtual input on Banana (example)
+    strips: [0, 5]
+
+# This ties to the user command example defined in triggerflowlib/plugins/usercommands.py
+b5:
+  text: Run Example Command
+  action:
+    type: user_command
+    command_name: functionExample
+    parameters:
+      param1: "Hello"
+      param2: "World"
+
+t1:
+  type: process_running
+  process: "vrserver.exe" # exact process name to watch
+  label: "SteamVR" # optional; shown in the UI (falls back to process)
+  on_enter: # actions fired when the process starts
+    - type: voicemeeter_toggle_a_pair
+      strips: [0, 5]
+  on_exit: # actions fired when the process stops
+    - type: voicemeeter_toggle_a_pair
+      strips: [0, 5]

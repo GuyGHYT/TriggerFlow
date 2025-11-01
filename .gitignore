@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local env files
+.env
+.env.*
+
+# Spotipy cache files
+.cache
+.cache_*
+
+# Logs
+*.log
+
+# Editor directories
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
