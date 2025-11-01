@@ -37,7 +37,8 @@ python -m pip install -r requirements.txt
    b. Click "Create an App"
    c. Name: "My TriggerFlow" (or whatever you like)
    d. Description: "Personal automation tool"
-   e. Redirect URI: `http://localhost:8888/callback`
+  e. Redirect URI: `http://127.0.0.1:8888/callback` 
+    (NOTE: Putting in localhost instead of the above will not allow you to make the Spotify app.)
    f. Copy your Client ID and Client Secret
    
    **Set your credentials:**
@@ -45,7 +46,7 @@ python -m pip install -r requirements.txt
    # Method 1: Environment variables (each session)
    $env:SPOTIPY_CLIENT_ID="your_client_id_from_step_f"
    $env:SPOTIPY_CLIENT_SECRET="your_client_secret_from_step_f"
-   $env:SPOTIPY_REDIRECT_URI="http://localhost:8888/callback"
+   $env:SPOTIPY_REDIRECT_URI="http://127.0.0.1:8888/callback"
    
    # Method 2: .env file (persistent, recommended)
    cp .env.example .env
