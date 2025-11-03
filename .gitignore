@@ -12,6 +12,9 @@ __pycache__/
 # Except for .env.example
 !.env.example
 
+# MY FILES
+user.bat
+
 # Spotipy cache files
 .cache
 .cache_*
