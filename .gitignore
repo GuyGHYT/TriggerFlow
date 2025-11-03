@@ -9,6 +9,9 @@ __pycache__/
 .env
 .env.*
 
+# Except for .env.example
+!.env.example
+
 # Spotipy cache files
 .cache
 .cache_*
