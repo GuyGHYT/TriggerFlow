@@ -9,7 +9,21 @@ TriggerFlow maps buttons to actions (Spotify playback, keyboard macros, etc.) vi
 - `config/buttons.yaml` — YAML configuration for button mappings
 - `triggerflowlib/` — library source: plugins, UI, utils
 
-## Quick start (Windows PowerShell)
+## Installation
+
+### Prerequisites
+- **Python 3.13.9** downloaded from [python.org](https://www.python.org/downloads/) (Python Software Foundation website)
+- Do NOT use Microsoft Store Python - get the real one from pythonsoftwarefoundation.org
+
+### Option 1: Automatic Setup (Recommended - for sensible people who read manuals)
+1. Download and run `TriggerFlow-Setup.exe`
+2. It will automatically:
+   - Install all Python dependencies  
+   - Create desktop shortcuts
+   - Set up launch scripts
+   - Guide you through configuration
+
+### Option 2: Manual Setup (Windows PowerShell)
 
 1. Verify Python is a real interpreter (avoid the Microsoft Store stub):
 ```powershell
