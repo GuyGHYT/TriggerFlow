@@ -6,6 +6,5 @@
     "description": "A GUI application for macros so you can automate and execute tasks.",
     "author": "Guy GHYT",
     "license": "MIT",
-    "email": "vrgameguy42@yahoo.com",
-    "patch_notes": "added compatibility with Spotify and Discord."
+    "email": "vrgameguy42@yahoo.com"
 }
