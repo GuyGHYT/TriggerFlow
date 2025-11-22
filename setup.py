@@ -287,7 +287,7 @@ def show_gui_setup():
     """Show a simple GUI for setup"""
     root = tk.Tk()
     root.title("TriggerFlow Setup")
-    root.geometry("500x400")
+    root.geometry("500x600")
     root.resizable(False, False)
 
     # Header
